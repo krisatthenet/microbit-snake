@@ -1,8 +1,4 @@
-# Add your Python code here. E.g.
 from microbit import *
-
-
-display.show(Image.SNAKE)
 
 while True:
     if button_a.is_pressed():
@@ -12,4 +8,4 @@ while True:
     elif button_a.is_pressed() and button_b.is_pressed():
         display.show(Image.CONFUSED)
     else:
-        display.show(Image.SAD)
+        display.show(Image.SNAKE)
